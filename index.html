@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHNX AI | Future of Finance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      color: #FFD700;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #FFD700;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li {
+      position: relative;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #FFD700;
+      font-weight: 600;
+      padding: 0.5rem;
+      display: block;
+      transition: color 0.3s;
+    }
+    nav ul li:hover > ul {
+      display: block;
+    }
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background: #111;
+      top: 2rem;
+      left: 0;
+      min-width: 150px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(255,215,0,0.2);
+    }
+    nav ul li ul li a {
+      padding: 0.5rem 1rem;
+    }
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero {
+      background: url('assets/ba1e5bee-1376-4f32-9944-810d10c43cb8.png') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 2px 4px #000;
+      animation: backgroundMove 20s linear infinite alternate;
+    }
+    @keyframes backgroundMove {
+      0% {background-position: center;}
+      100% {background-position: center top;}
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .hero a {
+      background: #FFD700;
+      color: #000;
+      font-weight: 800;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .hero a:hover {
+      background: #e6c200;
+    }
+    .feature, .buy-section {
+      background: #111;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(255,215,0,0.2);
+      max-width: 800px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">PHNX AI</div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">About</a>
+        <ul>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Features</a>
+        <ul>
+          <li><a href="#monitoring">Monitoring</a></li>
+          <li><a href="#adaptation">Adaptation</a></li>
+        </ul>
+      </li>
+      <li><a href="#buy">Buy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Welcome to PHNX AI</h1>
+  <p>Shaping the Future of Financial Security</p>
+  <a href="#buy">Buy $PHNXAI</a>
+</section>
+
+<section id="features">
+  <div class="feature">
+    <h2>Real-time Fraud Monitoring</h2>
+    <p>AI-driven systems that adapt and catch new fraudulent tactics instantly.</p>
+  </div>
+  <div class="feature">
+    <h2>Bias Detection & Correction</h2>
+    <p>Ensuring fairness, transparency, and compliance across all systems.</p>
+  </div>
+  <div class="feature">
+    <h2>Solana Powered</h2>
+    <p>Super fast, secure, and scalable for modern financial ecosystems.</p>
+  </div>
+</section>
+
+<section id="buy">
+  <div class="buy-section">
+    <h2>Buy $PHNXAI Now</h2>
+    <p><strong>Contract Address:</strong> 0x1234567890abcdef1234567890abcdef12345678</p>
+    <a href="https://pump.fun/" target="_blank">Buy on Pump.fun</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="feature">
+    <h2>Contact Us</h2>
+    <p>Email: info@phnxai.com</p>
+    <p>Twitter: <a href="https://twitter.com/PhoenixAI__" target="_blank">@PhoenixAI__</a></p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 PHNX AI. All rights reserved.
+</footer>
+
+</body>
+</html>
